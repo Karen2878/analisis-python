@@ -6,8 +6,5 @@ def dividir(a, b):
     return a / b
 
 saludar("Mundo")
+print(dividir(10, 0))
 
-try:
-    print(dividir(10, 0))
-except ZeroDivisionError:
-    print("Error: división por cero")
